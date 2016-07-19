@@ -23,9 +23,6 @@ url: "http://youralien.github.io" # the base hostname & protocol for your site
 
 #These settings might be able to go?
 author: Ryan Louie
-twitter_username: RyanCLouie
-github_username:  youralien
-company_name: youralien
 
 # Build settings
 markdown: kramdown
