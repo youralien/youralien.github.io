@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "Robot Soccer"
 cover: "img/robotsocceroverheadview.png"
-date:   2015-04-16
+date:   2016-04-16
 start_time: "10:00"
 
 #event organiser details
