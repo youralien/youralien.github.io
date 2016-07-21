@@ -33,6 +33,16 @@ The final outcome included
 
 My team was very proud to put our entire project report and source code on GitHub!  Please enjoy the <a href="https://github.com/DakotaNelson/robot-street-signs">full synopsis of the two week project, here</a>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/poReVhj1lSA" frameborder="0" allowfullscreen></iframe>
-
-
+<div style="
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;">
+<iframe style="
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;" src="https://www.youtube.com/embed/poReVhj1lSA" frameborder="0" allowfullscreen></iframe>
+</div>

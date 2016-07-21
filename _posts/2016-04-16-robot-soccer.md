@@ -28,6 +28,17 @@ The climax was definitely cheering for our own robots, as they <b>scored the onl
 Learn more about approach in our comprehensive <a href="https://github.com/youralien/team_ros_plays_football/blob/master/EE4306FinalReport.pdf"> 10 page presentation</a>.
 
 <h3 class="section-heading">Our robots versus a second instantiation of themselves</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpj07ajl6mk" frameborder="0" allowfullscreen></iframe>
-
+<div style="
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;">
+<iframe style="
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;" src="https://www.youtube.com/embed/xpj07ajl6mk" frameborder="0" allowfullscreen></iframe>
+</div>
 
