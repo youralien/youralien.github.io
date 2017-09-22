@@ -1467,9 +1467,13 @@ pre .storage {
 	-webkit-animation-name: fadeIndDown;
 	animation-name: 		fadeIndDown;
 	font-size: 18px;
-	font-style: italic;	
+	font-style: italic;
 }
 
+.inherit-link {
+	color: inherit;
+	text-decoration-color: inherit
+}
 .hero .subscribe {
 	margin-top: 45px;
 }
@@ -2037,6 +2041,10 @@ pre .storage {
 
 	.hero-text {
 		font-size: 20px;
+	}
+
+	.hero-text a:link {
+		color: inherit;
 	}
 
 	.pagination {
