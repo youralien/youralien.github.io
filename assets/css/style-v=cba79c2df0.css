@@ -1455,6 +1455,7 @@ pre .storage {
 	color: #fff;
 	font-size: 48px;
 	text-transform: uppercase;
+	display: inline;
 }
 
 .hero-text {
