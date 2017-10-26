@@ -31,3 +31,6 @@ markdown: kramdown
 future: true
 
 permalink: /event/:title.html
+
+# Google Analytics
+google_analytics: UA-101675001-2
