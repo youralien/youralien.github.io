@@ -1,0 +1,53 @@
+---
+layout: default
+navigation_title: projects
+---
+
+<main class="site-main" role="main">
+  <div class="site-content inner-wide">
+    <div class="post-grid"> 
+
+    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+
+    {% for post in site.posts  %}
+
+    {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
+
+    {% if blogDate >= currentDate %}
+
+    {% if post.cover %}
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+
+
+        <div class="post-bg" style="background-image:url({{post.cover}});"></div>
+
+        {% endif %}
+
+
+        <header class="post-header">
+    <!--   <div class="tag-links">
+    <a href="{{ post.url | prepend: site.baseurl }}">Music</a><a href="{{ post.url | prepend: site.baseurl }}">Science</a>
+    </div> -->
+    <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }} <span></span></a></h2>
+
+
+
+
+    <div class="post-meta">
+    by <span class="post-author"><a href="{{ site.baseurl }}/about">{{ site.title }} </a></span> on <time class="published" datetime="">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </div><!-- .post-meta -->
+    </header><!-- .post-header -->
+    <div class="read-more">
+    <a class="button light" href="{{ post.url | prepend: site.baseurl }}" title="Walking on Thin Ice">Read More</a>
+    </div>
+    </article>
+
+
+    {% endif %}
+
+    {% endfor %}
+
+    </div><!-- end post grid -->
+</div>
+</main>

@@ -16,7 +16,7 @@ title: Ryan Louie
 event_label: Events
 
 description: > # "
-  Ryan Louie, is a robotics and software engineer going to school at Olin College in Boston, USA.
+  PhD candidate at Northwestern in Technology and Social Behavior. HCI + AI. Currently based in Chicago.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://youralien.github.io" # the base hostname & protocol for your site
@@ -30,7 +30,7 @@ markdown: kramdown
 #Have to show future posts for future events.
 future: true
 
-permalink: /event/:title.html
+permalink: /project/:title.html
 
 # Google Analytics
 google_analytics: UA-101675001-2

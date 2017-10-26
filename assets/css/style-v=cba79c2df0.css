@@ -1426,7 +1426,7 @@ pre .storage {
 	padding-right: 60px;
 }
 
-.cover.post-header .inner {
+.cover.post-header  	.inner {
 	padding-bottom: 90px;
 	padding-top: 120px;
 }
@@ -1467,7 +1467,7 @@ pre .storage {
 	animation-fill-mode: 			both;
 	-webkit-animation-name: fadeIndDown;
 	animation-name: 		fadeIndDown;
-	font-size: 18px;
+	font-size: 23px;
 	font-style: italic;
 }
 
@@ -2049,7 +2049,7 @@ pre .storage {
 	}
 
 	.hero-text {
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.hero-text a:link {
@@ -2485,6 +2485,7 @@ a.page-link {
     font-family: Helvetica;
     text-transform: uppercase;
     font-size: 15px;
+    padding: 3px;
 }div#countbox1{
 
 	  font-family: Helvetica;
