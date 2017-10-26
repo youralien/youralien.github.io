@@ -4,7 +4,7 @@ layout: default
 
 
 
-{% assign organiser = site.data.organisers.[page.organiser] %}
+{% assign organiser = site.data.organisers[page.organiser] %}
 
 
 <!--
@@ -105,11 +105,11 @@ layout: default
   {% endif %}
 
 
- {% if organiser.photo %}
+ {% if organiser.name %}
 
-                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By {{organiser.name}}</a></h4>
+                    <h4 class="author-title">About {{organiser.name}}</h4>
 
-                     {% endif %}
+ {% endif %}
                     <p class="author-description">{{ site.description }}</p>
                     <p class="author-links">
 
