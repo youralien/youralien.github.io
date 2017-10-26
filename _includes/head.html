@@ -32,4 +32,10 @@
 <meta property="og:site_name" content="youralien.github.io"/>
 <meta name="robots" content="index, follow">
 <meta name="robots" content="all">
+
+<!-- Google Analytics -->
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 </head>
