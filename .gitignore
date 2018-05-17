@@ -1,0 +1,14 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# vim files
+*.swp
+
+# sublime
+*.sublime-workspace
+
+# macos
+*.DS_Store
