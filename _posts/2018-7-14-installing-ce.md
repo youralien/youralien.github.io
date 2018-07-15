@@ -13,6 +13,8 @@ organiser: "Ryan Louie"
 ---
 
 <h3 style="color: blue">I recommend opening this web page on another device, in addition to your phone. The instructions will be easier to follow!</h3>
+<h3 style="color: blue">bit.ly/install-ce</h3>
+
 
 # Download and Install `ce-platform` mobile app
 1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/qui1oim22wgo221/ce-platform.plist">Download the Collective Experience App</a>
