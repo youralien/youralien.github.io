@@ -13,7 +13,7 @@ organiser: "Ryan Louie"
 ---
 
 # App Install Instructions
-1. <a href="itms-services://?action=download-manifest&url=https://www.dropbox.com/s/qui1oim22wgo221/ce-platform.plist">Download the Collective Experience App</a>
+1. <a href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/qui1oim22wgo221/ce-platform.plist">Download the Collective Experience App</a>
 
 2. After you install the app, you will need to trust the Northwestern University Developer profile by going to Settings -> General -> Device Management -> Northwestern University
 
