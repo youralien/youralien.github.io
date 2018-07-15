@@ -93,7 +93,7 @@ After installing the app, you will need to trust the Northwestern University Dev
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-5. Click `Trust "Northwestern University"` 
+5. Click Trust "Northwestern University"
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/trust_nu4.jpg"
     style="display: block;
@@ -137,7 +137,7 @@ When opening the app for the first time, you will be prompted with alerts, reque
     alt="Create an account">
 </a>
 
-3. Fill in Username. Use something people would identify with you.
+3. Type a Username, along with password. Your username should be something people could identify you by. 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/signup3.png"
     style="display: block;
