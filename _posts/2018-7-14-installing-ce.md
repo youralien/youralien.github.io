@@ -167,6 +167,6 @@ When opening the app for the first time, you will be prompted with alerts, reque
     alt="Successful login">
 </a>
 
-5. __For first login:__ Swipe away to close the app on the first login. Then reopen the application. This process registers you to receive notifications for experiences.
+<h3 style="color: red">5. For first login: Double Press the Home Button, then Swipe away to close the app on the first login. Then reopen the application. This process registers you to receive notifications for experiences.</h3>
 
 6. If successful, you will receive your first experience notification. 
