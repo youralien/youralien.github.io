@@ -2,9 +2,9 @@
 layout: post
 
 #event information
-title:  "Installing Collective Experiences"
+title:  "Olin Install 'Cerebro' for the Collective Experiences Study"
 cover: ""
-date: 2018-7-14
+date: 2018-08-31
 start_time: "10:00"
 
 #event organiser details
@@ -13,13 +13,12 @@ organiser: "Ryan Louie"
 ---
 
 <h3 style="color: blue">I recommend opening this web page on another device, in addition to your phone. The instructions will be easier to follow!</h3>
-<h3 style="color: blue">bit.ly/install-ce</h3>
+<h3 style="color: blue">bit.ly/olin-install-ce</h3>
 
+# Download and Install 'Cerebro' mobile app
+1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/1xrkpwak1ionfsm/Cerebro.plist">Download Cerebro App</a>
 
-# Download and Install `ce-platform` mobile app
-1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/qui1oim22wgo221/ce-platform.plist">Download the Collective Experience App</a>
-
-2. Allow ce-platform.ipa from Dropbox to be installed (See below)
+2. Allow Cerebro.ipa from Dropbox to be installed (See below)
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/ce-dropbox-install.png"
     style="display: block;
