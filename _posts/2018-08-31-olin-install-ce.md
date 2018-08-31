@@ -16,7 +16,7 @@ organiser: "Ryan Louie"
 <h3 style="color: blue">bit.ly/olin-install-ce</h3>
 
 # Download and Install 'Cerebro' mobile app
-1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/1xrkpwak1ionfsm/Cerebro.plist">Download Cerebro App</a>
+1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/1xrkpwak1ionfsm/Cerebro.plist">Download Cerebro App for Olin</a>
 
 2. Allow Cerebro.ipa from Dropbox to be installed (See below)
 <a href="#">

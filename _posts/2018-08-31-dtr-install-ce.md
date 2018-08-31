@@ -16,7 +16,6 @@ organiser: "Ryan Louie"
 <h3 style="color: blue">bit.ly/dtr-install-ce</h3>
 
 # Download and Install 'Cerebro' mobile app
-https://www.dropbox.com/s/
 1. <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/b4isto3fjkr1pdn/Cerebro.plist">Download Cerebro App for DTR</a>
 
 2. Allow Cerebro.ipa from Dropbox to be installed (See below)
