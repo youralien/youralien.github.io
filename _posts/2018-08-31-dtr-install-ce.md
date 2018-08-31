@@ -21,7 +21,7 @@ https://www.dropbox.com/s/
 
 2. Allow Cerebro.ipa from Dropbox to be installed (See below)
 <a href="#">
-    <img src="{{ site.baseurl }}/img/ce/ce-dropbox-install.png"
+    <img src="{{ site.baseurl }}/img/ce/ce-dropbox-install.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
