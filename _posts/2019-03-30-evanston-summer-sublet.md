@@ -24,11 +24,13 @@ Kai's Room Details:
 - Bed, Shelves, Desk available (not shown here)
  
 House Details:
-- Address: 1104 Dempster Street
+- Address: 1104 Dempster Street (Ridge/Dempster)
+- Our house is a mix of Grad Students + Working Professionals in their mid to late 20s.
+- Dishwasher used frequently!
 - Free Washer/Dryer in basement 
 - Common Space shared amongst 4 people
 - Bathroom shared amongst 3 people
-- Our house is a mix of Northwestern Grad Students + Working Professionals in their 20s.
+- Walking Distance from Trader Joes / Jewel Osco / Valli Grocery
 
 #### Ryan's Bedroom - Available 6/16 - 9/14
 
