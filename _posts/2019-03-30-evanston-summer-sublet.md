@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Evanston Sublet 6/16 - 9/14"
+title:  "Evanston Sublet - 2 rooms available ($615 per room) in shared house"
 cover: "img/summersublet19/ryan_bedroom_1.jpg"
 date:   2019-03-30
 start_time: "10:00"
