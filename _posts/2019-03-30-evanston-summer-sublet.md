@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Evanston Sublet 6/16 - 9/14"
-cover: "img/summersublet19/ryan_bedroom_1.JPG"
+cover: "img/summersublet19/ryan_bedroom_1.jpg"
 date:   2019-03-30
 start_time: "10:00"
 
@@ -33,7 +33,7 @@ House Details:
 #### Ryan's Bedroom - Available 6/16 - 9/14
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_1.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +41,7 @@ House Details:
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_2.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_2.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +49,7 @@ House Details:
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_3.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/ryan_bedroom_3.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +59,7 @@ House Details:
 
 #### Kai's Bedroom - Available 6/9 - 8/31 (or longer if wanting one-year lease)
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/kais_bedroom_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/kais_bedroom_1.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +67,7 @@ House Details:
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/kais_bedroom_2.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/kais_bedroom_2.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -77,13 +77,13 @@ House Details:
 
 #### Bathroom - Shared with 3 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/bathroom_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/bathroom_1.jpg"
     style="display: inline-block;
     width: 49%;"
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/bathroom_2.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/bathroom_2.jpg"
     style="display: inline-block;
     width: 49%;"
     >
@@ -91,7 +91,7 @@ House Details:
 
 #### Living Room
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/living_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/living_1.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +99,7 @@ House Details:
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/living_2.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/living_2.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +109,7 @@ House Details:
 
 #### Dining Room
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/dining_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/dining_1.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +120,7 @@ House Details:
 #### Kitchen 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/kitchen_1.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/kitchen_1.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +128,7 @@ House Details:
     >
 </a>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/summersublet19/kitchen_2.JPG"
+    <img src="{{ site.baseurl }}/img/summersublet19/kitchen_2.jpg"
     style="display: block;
     margin-left: auto;
     margin-right: auto;
