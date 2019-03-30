@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Evanston Sublet - 2 rooms available ($615 per room) in shared house"
+title:  "Evanston Sublet - 2 rooms available ($615 OBO per room) in shared house"
 cover: "img/summersublet19/ryan_bedroom_1.jpg"
 date:   2019-03-30
 start_time: "10:00"
@@ -14,13 +14,13 @@ organiser: "Ryan Louie"
 
 Ryan's Room Details:
 - Available from 6/16 - 9/14
-- $615 all utilities, electricity, laundry, internet included.
+- $615 OBO - all utilities, electricity, laundry, internet included.
 - Bed, Lamps, Desk, Chair, Dresser, Shelves -- all stay for your enjoyment.
 
 Kai's Room Details:
 - Available 6/9 - 8/31, if subletting only.
 - Available 6/9 - onward if interested in signing a one-year lease starting 9/1.
-- $615 all utilities, electricity, laundry, internet included.
+- $615 OBO - all utilities, electricity, laundry, internet included.
 - Bed, Shelves, Desk available (not shown here)
  
 House Details:
