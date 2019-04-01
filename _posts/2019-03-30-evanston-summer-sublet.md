@@ -12,6 +12,12 @@ organiser: "Ryan Louie"
 
 ---
 
+My house has two rooms available (6/15 - 9/14 and 6/9 - 8/31 or longer if wanting to join our lease) in a 4BR 2BA apartment on Dempster and Ridge. The location is incredible: 8 min walk to Trader Joes, 1 min walk to 201 bus that goes to Northwestern, 7 min walk to nearest purple line train station, and easy street parking. The room and entire apartment come fully furnished.  In the basement, we have free-to-use washer/dryer + bike storage!
+
+You would join my 2 (kind, respectful, and no-mess) housemates in their mid 20's -- one is a grad student and another is a working professional (they both go by he/his/him). Male housemates preferred. Message me if you are interested or know of someone who might be ($615 per room, OBO)
+
+Note: If you are needing a one month rental 6/15 - 7/14, ask about this too! Subletting part of the 3 months might be negotiable.
+
 Ryan's Room Details:
 - Available from 6/16 - 9/14
 - $615 OBO - all utilities, electricity, laundry, internet included.
