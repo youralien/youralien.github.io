@@ -14,7 +14,7 @@ organiser: "Ryan Louie"
 
 <h3 style="color: blue">I recommend opening this web page on your laptop, in addition to your phone. The instructions will be easier to follow!</h3>
 
-# Download and Install 'Cerebro' mobile app
+# 1. Download and Install 'Cerebro' mobile app
 1. <a href="https://i.diawi.com/kGBCzU">Open this link from your iPhone to Download the Cerebro App: https://i.diawi.com/kGBCzU</a>
 
 2. Allow Cerebro.ipa from Dropbox to be installed (See below)
@@ -47,7 +47,7 @@ organiser: "Ryan Louie"
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-# Trust Northwestern University as a Developer
+# 2. Trust Northwestern University as a Developer
 After installing the app, you will need to trust the Northwestern University Developer profile.
 
 1. Go to Settings
