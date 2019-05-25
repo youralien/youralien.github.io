@@ -17,17 +17,7 @@ organiser: "Ryan Louie"
 # 1. Download and Install 'Cerebro' mobile app
 1. <a href="https://i.diawi.com/kGBCzU">Open this link from your iPhone to Download the Cerebro App: https://i.diawi.com/kGBCzU</a>
 
-2. Allow Cerebro.ipa from Dropbox to be installed (See below)
-<a href="#">
-    <img src="{{ site.baseurl }}/img/ce/ce-dropbox-install.jpg"
-    style="display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;"
-    alt="Steps for trusting Northwestern as a developer so that you have access to the app">
-</a>
-
-3. After install (~1 minute), the app icon should be visible on the desktop (See below)
+2. After install (~1 minute), the app icon should be visible on the desktop (See below)
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/ce-icon-desktop.jpg"
     style="display: block;
@@ -37,7 +27,7 @@ organiser: "Ryan Louie"
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-4. If you click the app icon, a warning will appear, which we will fix in the next step (See Below)
+3. If you click the app icon, a warning will appear, which we will fix in the next step (See Below)
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/ce-untrusted.jpg"
     style="display: block;
