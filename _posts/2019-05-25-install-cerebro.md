@@ -14,7 +14,7 @@ organiser: "Ryan Louie"
 
 <h3 style="color: blue">I recommend opening this web page on your laptop, in addition to your phone. The instructions will be easier to follow!</h3>
 
-# 1. Download and Install 'Cerebro' mobile app
+# 1. Download the “Cerebro” iPhone app
 1. <a href="https://i.diawi.com/kGBCzU">Open this link from your iPhone to Download the Cerebro App: https://i.diawi.com/kGBCzU</a>
 
 2. After install (~1 minute), the app icon should be visible on the desktop (See below)
@@ -37,7 +37,7 @@ organiser: "Ryan Louie"
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-# 2. Trust Northwestern University as a Developer
+# 2. Trust Northwestern University Developer Profile  
 After installing the app, you will need to trust the Northwestern University Developer profile.
 
 1. Go to Settings
@@ -91,7 +91,7 @@ After installing the app, you will need to trust the Northwestern University Dev
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-# 3. Allowing Location Data and Notifications
+# 3. Allow iOS Notifications and Location services
 When opening the app for the first time, you will be prompted with alerts, requesting your permission to allow location data to be tracked and notifications to be sent. Please allow, as Opportunistic Collective Experiences rely on location data. 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/allowlocation.png"
@@ -102,8 +102,7 @@ When opening the app for the first time, you will be prompted with alerts, reque
     alt="Allow access to your background location">
 </a>
 
-# 4. Create account with your name and profile picture
-
+# 4. Create an account with with your name and profile picture.
 Click "Sign up / Join", and then "Register"
 <a href="#">
      <img src="{{ site.baseurl }}/img/ce/signup-join.jpeg"
