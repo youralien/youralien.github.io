@@ -116,7 +116,7 @@ When opening the app for the first time, you will be prompted with alerts, reque
 
 Click "Sign up / Join", and then "Register"
 <a href="#">
-     <img src="{{ site.baseurl }}/img/ce/allowlocation.jpeg"
+     <img src="{{ site.baseurl }}/img/ce/signup-join.jpeg"
      style="display: block;
      margin-left: auto;
      margin-right: auto;
