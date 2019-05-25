@@ -2,9 +2,9 @@
 layout: post
 
 #event information
-title:  "Install 'Cerebro', our Novel, Social Media app for Reconnecting with Communities: "
+title:  "Install 'Cerebro', our novel, social media app 📱 for reconnecting with close-knit communities 👫"
 cover: ""
-date: 2018-08-31
+date: 2019-05-25
 start_time: "10:00"
 
 #event organiser details
