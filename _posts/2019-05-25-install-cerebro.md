@@ -101,7 +101,7 @@ After installing the app, you will need to trust the Northwestern University Dev
     alt="Steps for trusting Northwestern as a developer so that you have access to the app">
 </a>
 
-# Opening App and Allowing Data and Notifications
+# 3. Allowing Location Data and Notifications
 When opening the app for the first time, you will be prompted with alerts, requesting your permission to allow location data to be tracked and notifications to be sent. Please allow, as Opportunistic Collective Experiences rely on location data. 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ce/allowlocation.png"
@@ -112,3 +112,24 @@ When opening the app for the first time, you will be prompted with alerts, reque
     alt="Allow access to your background location">
 </a>
 
+# 4. Create account with your name and profile picture
+
+Click "Sign up / Join", and then "Register"
+<a href="#">
+     <img src="{{ site.baseurl }}/img/ce/allowlocation.jpeg"
+     style="display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;"
+     alt="Find the join / register page">
+</a>
+
+Create your account. Your First and Last Name + Profile Picture are used as your display name / picture. Don't forget them!
+<a href="#">
+     <img src="{{ site.baseurl }}/img/ce/signup-createaccount.jpeg"
+     style="display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;"
+     alt="Create your account">
+</a>
