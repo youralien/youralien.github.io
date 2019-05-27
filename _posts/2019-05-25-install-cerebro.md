@@ -15,7 +15,7 @@ organiser: "Ryan Louie"
 <h3 style="color: blue">I recommend opening this web page on your laptop, in addition to your phone. The instructions will be easier to follow!</h3>
 
 # 1. Download the “Cerebro” iPhone app
-1. <a href="https://i.diawi.com/kGBCzU">Open this link from your iPhone to Download the Cerebro App: https://i.diawi.com/kGBCzU</a>
+1. <a href="https://i.diawi.com/YUUJp6">Open this link from your iPhone to Download the Cerebro App: https://i.diawi.com/YUUJp6</a>
 
 2. After install (~1 minute), the app icon should be visible on the desktop (See below)
 <a href="#">
