@@ -6,6 +6,7 @@ title:  "Human AI Interaction Course"
 cover: ""
 date: 2018-5-17
 start_time: "10:00"
+categories: [projects]
 
 #event organiser details
 organiser: "Ryan Louie"

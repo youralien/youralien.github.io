@@ -1,15 +1,15 @@
 ---
-# layout: default
-# navigation_title: projects
+layout: default
+navigation_title: projects
 ---
 
 <main class="site-main" role="main">
   <div class="site-content inner-wide">
-    <div class="post-grid"> 
+    <div class="post-grid">
 
     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-
-    {% for post in site.posts  %}
+    {% assign project-posts = site.posts | where: "categories", "projects" %}
+    {% for post in project-posts %}
 
     {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
 
@@ -46,7 +46,7 @@
 
     {% endif %}
 
-    {% endfor %}
+    {% endfor %}<!-- end for posts -->
 
     </div><!-- end post grid -->
 </div>

@@ -6,6 +6,7 @@ title:  "Olin Install 'Cerebro' for the Collective Experiences Study"
 cover: ""
 date: 2018-08-31
 start_time: "10:00"
+categories: [resource]
 
 #event organiser details
 organiser: "Ryan Louie"

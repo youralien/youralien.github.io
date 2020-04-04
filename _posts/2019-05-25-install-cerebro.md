@@ -6,6 +6,7 @@ title:  "Install 'Cerebro', our novel, social media app 📱 for reconnecting wi
 cover: ""
 date: 2019-05-25
 start_time: "10:00"
+categories: [resource]
 
 #event organiser details
 organiser: "Ryan Louie"

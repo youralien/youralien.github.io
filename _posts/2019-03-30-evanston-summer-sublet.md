@@ -6,6 +6,7 @@ title:  "Evanston Sublet - 2 rooms available ($615 OBO per room) in shared house
 cover: "img/summersublet19/ryan_bedroom_1.jpg"
 date:   2019-03-30
 start_time: "10:00"
+categories: [resource]
 
 #event organiser details
 organiser: "Ryan Louie"

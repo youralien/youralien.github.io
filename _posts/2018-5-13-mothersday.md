@@ -6,6 +6,7 @@ title:  "(Unexplainable Mom-Ryan Interaction)"
 cover: "img/motherday-dorkystare.jpg"
 date:   2018-5-13
 start_time: "10:00"
+categories: [personal]
 
 #event organiser details
 organiser: "Ryan Louie"
