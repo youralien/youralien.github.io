@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Personal Finance Letter"
-cover: "img/foggy-salkantay.JPG"
+cover: "img/ryan-peru-climbing-lake.jpg"
 date:   2020-04-12
 categories: [personal]
 
@@ -11,7 +11,7 @@ categories: [personal]
 organiser: "Ryan Louie"
 
 ---
-_"The road to learning personal finance may be rocky, it may not be clear where it may be taking you. No matter, it is important one keeps exploring that road with curiosity." -- Ryan Louie_
+_"The climb to learning personal finance may be rocky, it may not be clear where it may be taking you. No matter, it is important one keeps exploring that road with curiosity." -- Ryan Louie_
 
 It was during my times growing up in California and my first time living away in Boston when I developed my spending habits. I think I grew up as a saver -- excited to know I was accumulating money. But I also have been mostly conservative with big ticket items that I spend my money on.  For example, while going to undergrad in Boston, I never flew home during the Thanksgiving or Spring break, as my parents encouraged me to save that money. During undergrad, I hardly took any vacations or trips using my own money -- all the vacations were enjoyed with my parents and luckily paid by them.
 
