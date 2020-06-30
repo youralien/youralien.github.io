@@ -2,7 +2,7 @@
 layout: post
 
 #event information
-title:  "Evanston Dempster Room in Shared House - available $620/month"
+title:  "Evanston Room in Shared House - available July 7th @ $620/month"
 cover: "img/summersublet19/kais_bedroom_1.jpg"
 date: 2020-06-30
 start_time: "10:00"
