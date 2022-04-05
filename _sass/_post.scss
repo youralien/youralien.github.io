@@ -1,0 +1,401 @@
+.post {
+	margin-bottom: 60px;
+}
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  border-color: transparent;
+  color: #fff;
+}
+
+.tag-template .post-title a,
+.author-template .post-title a {
+  color: #111;
+}
+
+.post-title a:hover,
+.tag-template .post-title a:hover,
+.author-template .post-title a:hover {
+  border-color: #000;
+}
+
+.tag-links {
+  font: bold 10px/1.5 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.tag-links a {
+  background-color: #ffea00;
+  border: 2px solid transparent;
+  color: #111;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 1px 3px;
+}
+
+.tag-links a:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.tag-template .tag-links a:hover,
+.author-template .tag-links a:hover {
+  background-color: transparent;
+  border-color: #111;
+  color: #111;
+}
+
+.post-meta {
+  color: #ccc;
+  font: 12px/1.5 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.post-meta .reading-time {
+  bottom: 40px;
+  position: absolute;
+  right: 30px;
+}
+
+.post-meta a {
+  border-color: transparent;
+  color: #fff;
+}
+
+.post-meta a:hover {
+  border-color: #fff;
+  color: #868686;
+}
+
+.tag-template .post-meta a,
+.author-template .post-meta a {
+  color: #666;
+}
+
+.tag-template .post-meta a:hover,
+.author-template .post-meta a:hover {
+  border-color: #ffea00;
+  color: #111;
+}
+
+.author-template .post-content,
+.tag-template .post-content {
+  font-size: 16px;
+}
+
+.share-post {
+  font: 12px/1.5 'Montserrat', sans-serif;
+  color: #ccc;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.share-post .square {
+  font-size: 14px;
+  height: 36px;
+  line-height: 2.57143;
+  margin-left: 5px;
+  width: 36px;
+}
+
+.author-box {
+  border: 3px solid #111;
+  margin-bottom: 60px;
+  min-height: 85px;
+  padding: 30px;
+  position: relative;
+}
+
+.author-box .author-avatar {
+  border-radius: 50%;
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 85px;
+}
+
+.author-box .author-title,
+.author-box .author-description,
+.author-box .author-links {
+  margin-left: 115px;
+}
+
+.no-avatar .author-title,
+.no-avatar .author-description,
+.no-avatar .author-links {
+  margin-left: 0;
+}
+
+.author-box .author-title {
+  color: #ccc;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.author-box .author-description {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.author-box .author-links {
+  color: #111;
+  font: 12px/1.5 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.author-box .author-location {
+  margin-right: 10px;
+}
+
+.post-grid {
+
+}
+
+.author-template .post-grid,
+.tag-template .post-grid {
+  margin-left: 0;
+}
+
+.grid-item {
+  -webkit-box-sizing:	border-box;
+  -moz-box-sizing:	border-box;
+  box-sizing:			border-box;
+  float: left;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.grid-item,
+.home-template .grid-item:nth-child(3n+1) {
+  height: 450px;
+  width: 50%;
+}
+
+.grid-item:nth-child(3n+1),
+.home-template .grid-item:nth-child(3n+3) {
+  height: 600px;
+  width: 100%;
+}
+
+.author-template .grid-item,
+.tag-template .grid-item {
+  height: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 50%;
+}
+
+.author-template .grid-item:nth-child(2n+1),
+.tag-template .grid-item:nth-child(2n+1) {
+  clear: left;
+}
+
+.post-inside {
+  background-color: #111;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.post-inside .post-header {
+  color: #fff;
+  padding: 60px;
+  position: relative;
+}
+
+.post-inside .read-more {
+  bottom: 60px;
+  left: 60px;
+  position: absolute;
+}
+
+.grid-item:nth-child(3n+1) .post-inside .post-title,
+.home-template .grid-item:nth-child(3n+3) .post-title {
+  font-size: 40px;
+  max-width: 80%;
+}
+
+.home-template .grid-item:nth-child(3n+1) .post-title {
+  font-size: 28px;
+  max-width: none;
+}
+
+.cover {
+  background-color: #111;
+  color: #fff;
+  display: table;
+  height: 100vh;
+  margin-bottom: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.cover.hero {
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+.cover.page-header {
+  height: 450px;
+}
+
+.cover-bg,
+.post-bg {
+  -webkit-animation: 	fadeIn 1s ease-in-out;
+  animation:			fadeIn 1s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cover-content {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hero .cover-content {
+  text-align: left;
+}
+
+.cover .inner {
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+.cover.hero .inner {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.cover.post-header  	.inner {
+  padding-bottom: 90px;
+  padding-top: 120px;
+}
+
+.cover .scroll-down {
+  bottom: 30px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.hero-wrap {
+  border-left: 7px solid rgb(228, 228, 228);
+  padding-left: 45px;
+}
+
+.hero-title {
+  -webkit-animation-delay: 	0.2s;
+  animation-delay: 			0.2s;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 		0.8s;
+  -webkit-animation-fill-mode: 	both;
+  animation-fill-mode: 			both;
+  -webkit-animation-name: fadeIndDown;
+  animation-name: 		fadeIndDown;
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.hero-text {
+  -webkit-animation-delay: 	0.4s;
+  animation-delay: 			0.4s;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 		0.6s;
+  -webkit-animation-fill-mode: 	both;
+  animation-fill-mode: 			both;
+  -webkit-animation-name: fadeIndDown;
+  animation-name: 		fadeIndDown;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.inherit-link {
+  color: inherit;
+  text-decoration-color: inherit
+}
+.hero .subscribe {
+  margin-top: 45px;
+}
+
+.page-title,
+.post-template .post-title {
+  color: #fff;
+  font-size: 40px;
+}
+
+.post-count,
+.page-header .author-links {
+  color: #ccc;
+  font: 12px/1.5 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.post-count {
+  margin-bottom: 15px;
+}
+
+.page-description {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.page-header .author-avatar {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 134px;
+  width: 134px;
+}
+
+.page-header .author-location {
+  margin-right: 10px;
+}
+
+.page-header .author-links a {
+  border-color: transparent;
+  color: #ffea00;
+}
+
+.page-header .author-links a:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.timeline-date {
+  color: #810016;
+}
+
+.timeline-role {
+  color: #007c00;
+}

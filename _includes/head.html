@@ -1,8 +1,8 @@
 <head>
 
-	<!-- Hello World. 
+	<!-- Hello World.
 		My Name is Ryan Louie
-		
+
 		Theme: blog/youralien.github.io
 		Theme: by Ryan Louie
 		copy: by Ryan Louie
@@ -18,10 +18,16 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.css" rel="stylesheet"> -->
+  <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
+  <link href="{{ '/css/main.css' | relative_url }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/style-v=cba79c2df0.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
-      <link rel="shortcut icon" href="http://youralien.github.io/icon.png">
-    <link rel="icon" href="http://youralien.github.io/icon.png" type="image/x-icon">
+
+  <link rel="shortcut icon" href="http://youralien.github.io/icon.png">
+  <link rel="icon" href="http://youralien.github.io/icon.png" type="image/x-icon">
+
     <!-- Facebook Meta Data -->
 <meta property="og:image" content="http://youralien.github.io/img/Pi2ModB1GB_-comp.jpg"/>
 <meta property="og:locality" content="Boston"/>

@@ -27,6 +27,13 @@ author: Ryan Louie
 # Build settings
 markdown: kramdown
 
+sass:
+  style: compressed
+
+collections:
+  publications:
+    output: false
+
 #Have to show future posts for future events.
 future: true
 
