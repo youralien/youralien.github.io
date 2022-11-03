@@ -374,7 +374,7 @@ body {
 
 a {
 	border-bottom: 1px solid #111;
-	color: #111;
+	color: rgb(0, 200, 255);
 	text-decoration: none;
 	-webkit-transition: all .3s;
 	-moz-transition:	all .3s;
@@ -382,7 +382,7 @@ a {
 }
 
 a:hover {
-	color: #111;
+	color: rgb(0, 255, 145);
 }
 
 h1,
@@ -1643,11 +1643,11 @@ pre .storage {
 	}
 
 	.hero-text {
-		font-size: 25px;
+		font-size: 18px;
 	}
 
 	.hero-text a:link {
-		color: inherit;
+		color: #06b6ef;
 	}
 
 	.pagination {

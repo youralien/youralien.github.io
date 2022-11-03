@@ -18,10 +18,15 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
             </span>
             <hr>
             <p class="hero-text fade-in">
-              PhD student at Northwestern in Technology and Social Behavior.
+              ryanlouie (at) u (dot) northwestern (dot) edu
               <br>
+              <a href="#about">About me</a>
               <br>
-              ryanlouie@u.northwestern.edu
+              <a href="#news">News</a>
+              <br>
+              <a href="#publications">Publications</a>
+              <br>
+
             </p>
           </div>
         </div><!-- .inner -->
@@ -29,19 +34,31 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
     </div><!-- .cover -->
 
     <div class="home inner">
+      <h5 id="about">About me</h5>
+
       <p>
-        <b>Bio. </b>In my graduate work, I aim to design, implement, and evaluate Cerebro, a computational platform for detecting and facilitating <i>opportunistic interactions</i>, or serendipitous moments in users’ daily lives for engaging in shared activities, to support social connection at distance. This purposed research is advancing my interests in designing intelligent human-machine systems, and my desire to empower people to build stronger social connections, increase social capital, and increase their emotional well-being. Advancing these goals requires taking an interdisciplinary approach; in this vein, my work draws on methods from HCI, AI, and social science to devise novel technological solutions to complex human problems.
+        I am a PhD candidate in Northwestern's <a href="https://tsb.northwestern.edu/">Technology and Social Behavior</a> program, working with Prof. <a class="hero-text link" href="http://users.eecs.northwestern.edu/~hq/">Haoqi Zhang</a> at the Delta Lab. My research supports people’s ability to interface with existing artificial intelligence (AI) capabilities. I build human-AI interfaces to effectively ensure AI-enabled applications support people's desires for socially connecting and personally empowering experiences.
+
+      </p>
+      <p>
+        In my dissertation, I designed a platform for creating <a href="files/oce_cscw20_cameraready_sep11.pdf">Opportunistic Collective Experiences (OCEs)</a>, a new AI-enabled social technology that identifies and facilitates opportunities for friends and family to engage in shared experiences. To create OCEs, I built tools for interfacing with existing AI detection and coordination abilities, so designers can structure opportunities, <a href="files/affinder_chi2022.pdf">express high-level situations</a>, and encode human expectations for execution during deployment.
+      </p>
+      <p>
+        In my work at Google Research, I developed steering interfaces so creators could feel greater control and effectively express their emotions when partnering with generative AI. Check out the blog post I wrote that summarizes this <a href="https://magenta.tensorflow.org/people-first-hci-ml-collaborations">People First Approach</a> to developing Generative AI applications for music creation.
+      </p>
+
+      <h5 id="news">News</h5>
+
+      <p style="font-weight: bold; font-style: italic;">
+        ✨ I am on the job market! ✨ I am seeking opportunities as a Computer Science Faculty or Research Scientist. I am excited to pursue a research agenda that advances humans’ own capacities for interfacing with AI, so that AI-enabled applications can effectively facilitate a variety of human goals, from social connection, creative expression, and beyond.
+        [<a href="/files/Ryan Louie - Research Statement.pdf">Research</a>] [<a href="/files/Ryan Louie - Teaching Statement.pdf">Teaching</a>] [<a href="/files/Ryan Louie - Diversity, Equity, and Inclusion Statement.pdf">Diversity</a>] [<a href="files/ryanlouie_cv.pdf">CV</a>]
       </p>
 
       <p>
-        I am pursuing an interdisciplinary PhD in Computer Science and Communications through the Technology and Social Behavior Program at Northwestern University. I have had the pleasure of pursuing this research with Dr. <a class="inherit-link" href="http://dgergle.soc.northwestern.edu/">Darren Gergle</a> and my advisor, Dr. <a class="inherit-link" href="http://users.eecs.northwestern.edu/~hq/">Haoqi Zhang</a>.
+        I was also awarded a Google PhD Fellowship in Human Computer Interaction in 2022! Northwestern wrote a nice <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2022/supporting-designers-in-expressing-human-experiences-to-ai-and-context-aware-technologies.html">article featuring me as a fellowship recipient</a>.
       </p>
 
-      <p>
-        In addition to my research, I am a SIG (Special Interest Group) head for the <a class="inherit-link" href="http://dtr.northwestern.edu">Design, Technology, and Research</a> studio at Northwestern, where I've had the opportunity to co-mentor several wonderful undergraduate students while they practice to self-direct their own independent, Systems HCI research projects (Shoutout to Sanfeng Wang, Ryan Jeon, Matthew Wang, Andrew Finke, Jennie Werner, Allison Sun, Suzy Lee, Meg Grasse, Eunice Lee).
-      </p>
-
-      <h5>Featured Publications</h5>
+      <h5 id="publications">Featured Publications</h5>
       <div class="featured-publications">
         {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
         {% for pub in sorted_publications %}
