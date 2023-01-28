@@ -2063,8 +2063,10 @@ pre .storage {
 img.author-avatar {
     border: 3px solid #fff;
     border-radius: 50%;
-    height: 134px;
-    width: 134px;
+    height: 200px;
+		/* 134px; */
+    width: 200px;
+		/* 134px; */
 }
 li.previous {
     float: right;
