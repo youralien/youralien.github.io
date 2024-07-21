@@ -73,7 +73,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
               <br>
               <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
               <br>
-              <i>{% if pub.venue %}In {{pub.venue}}{% endif %}</i>.
+              <i>{% if pub.venue %}{{pub.venue}}{% endif %}</i>.
             </div>
             <br>
             <br>

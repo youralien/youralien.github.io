@@ -81,9 +81,9 @@
       </a>
     {% endif %}
     {% if pub.doi %}
-      <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
+      <!-- <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
         <i class="fas fa-book" aria-hidden="true"></i> Bibtex
-      </a>
+      </a> -->
     {% elsif pub.arxiv %}
       <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
         <i class="fas fa-book" aria-hidden="true"></i> Bibtex
