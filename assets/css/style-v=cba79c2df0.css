@@ -1611,7 +1611,7 @@ pre .storage {
 	.grid-item:nth-child(3n+1),
 	.home-template .grid-item:nth-child(3n+3),
 	.cover.hero {
-		height: 800px;
+		height: 300px;
 	}
 
 	.author-template .grid-item,
@@ -1780,7 +1780,7 @@ pre .storage {
 
 	.cover,
 	.cover.hero {
-		height: 450px;
+		height: 200px;
 	}
 
 	.hero-title {
