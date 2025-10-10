@@ -6,7 +6,7 @@ title:  "Paper Airplane Folder"
 cover: "img/airplane_dispenser_isoview.JPG"
 date:   2014-12-19
 start_time: "10:00"
-categories: [projects]
+categories: [personal]
 
 #event organiser details
 organiser: "Ryan Louie"
