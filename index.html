@@ -66,7 +66,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
 
       <!-- Mental Health Publications -->
-      <h3>Mental Health</h3>
+      <h5>Mental Health with LLMs</h5>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
           {% if pub.highlight and pub.tags contains 'mentalhealth' %}
@@ -92,7 +92,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       </div>
 
       <!-- Creativity Publications -->
-      <h3>Creativity</h3>
+      <h5>Creativity with Generative AI</h5>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
           {% if pub.highlight and pub.tags contains 'creativity' %}
@@ -118,7 +118,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       </div>
 
       <!-- Social Connection Publications -->
-      <h3>Social Connection</h3>
+      <h5>Social Connection via Context-Aware AI</h5>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
           {% if pub.highlight and pub.tags contains 'socialconnection' %}
