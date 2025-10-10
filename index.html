@@ -53,7 +53,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
           I am a postdoc in Stanford's Computer Science department, where I am part of the Stanford NLP and Stanford HCI groups and advised by <a class="hero-text link" href="https://cs.stanford.edu/~diyiy/">Diyi Yang</a> and <a class="hero-text link" href="https://cs.stanford.edu/people/ebrun/">Emma Brunskill</a>. I received my PhD from Northwestern's <a href="https://tsb.northwestern.edu/">Technology and Social Behavior</a> program, where I worked closely with Prof. <a class="hero-text link" href="http://users.eecs.northwestern.edu/~hq/">Haoqi Zhang</a> and <a class="hero-text link" href="https://dgergle.soc.northwestern.edu/">Darren Gergle</a> on Human-AI Interaction and Social Computing research topics.
         </p>
         <p>
-          My research advances human-centered AI approaches to create systems that assist in activities for promoting personal well-being. I have built human-AI systems that assist with training novice counselors to effectively support patients (<a href="https://arxiv.org/abs/2505.02428">mental health</a>), empower casual creators to compose music that expressively communicates their ideas or emotions (<a href="files/expressive_communication.pdf">creativity</a>), enabling friends to connect across distance (<a  href="files/oce_cscw20_cameraready_sep11.pdf">social connection</a>). Motivated by these application domains, I invent technical methods for effectively customizing and interacting with AI capabilities (LLMs, generative models, context-aware AI) so that system behaviors are aligned with the goals and values of their designers and end-users. Then, I rigorously evaluate the systems via experimental studies and real-world deployments to develop a scientific understanding of how these human-AI systems impact human behavior and user experience.
+          My research advances human-centered AI approaches to create systems that assist in activities for promoting personal well-being. I have built human-AI systems that assist with training novice counselors to effectively support patients (<a href="https://arxiv.org/abs/2505.02428">mental health</a>), empower casual creators to compose music that expressively communicates their ideas or emotions (<a href="files/expressive_communication.pdf">creativity</a>), and enable friends to connect across distance (<a  href="files/oce_cscw20_cameraready_sep11.pdf">social connection</a>). Motivated by these application domains, I invent technical methods for effectively customizing and interacting with AI capabilities (LLMs, generative models, context-aware AI) so that system behaviors are aligned with the goals and values of their designers and end-users. Then, I rigorously evaluate the systems via experimental studies and real-world deployments to develop a scientific understanding of how these human-AI systems impact human behavior and user experience.
           <!-- Mental health providers--from trained therapists to volunteer peer supporters--remain crucial, and we hypothesize that AI-assisted training and practice can improve their efficacy, confidence, and growth. Human-AI collaboration and interfaces for effectively imbuing AIs with domain-specific and personal-knowledge of this area will be important. -->
         </p>
         <p>
@@ -169,41 +169,6 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
         {% endfor %}
       </div>
 
-      <!-- Other Publications (no specific area tag) -->
-      {% assign has_other = false %}
-      {% for pub in sorted_publications %}
-        {% if pub.highlight and pub.tags != 'mentalhealth' and pub.tags != 'creativity' and pub.tags != 'socialconnection' %}
-          {% assign has_other = true %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-
-      {% if has_other %}
-      <h3>Other</h3>
-      <div class="featured-publications">
-        {% for pub in sorted_publications %}
-          {% if pub.highlight and pub.tags != 'mentalhealth' and pub.tags != 'creativity' and pub.tags != 'socialconnection' %}
-            <div class="publication">
-              {% if pub.papericon %}
-                <a href="{{ pub.pdf }}" target="_blank">
-                  <img class="papericon" src="{{ pub.papericon }}" width="100" height="100" align="left">
-                </a>
-              {% endif %}
-              <span class="ptitle">{{ pub.title }}</span>
-              [<a href="{{ pub.pdf }}">PDF</a>]
-              <br>
-              <span class="authors">
-                {% for author in pub.authors %}{% if author == site.author %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
-              </span>.
-              <br>
-              <i>{% if pub.venue %}{{pub.venue}}{% endif %}</i>.
-            </div>
-            <br>
-            <br>
-          {% endif %}
-        {% endfor %}
-      </div>
-      {% endif %}
       <a href="{{ "/publications/" | relative_url }}" class="button">
         <i class="fas fa-chevron-circle-right"></i>
         Show All Publications
