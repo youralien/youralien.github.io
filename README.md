@@ -30,6 +30,7 @@ For featured publications there's a bit more work.
 #### Posts (Blog posts)
 Adding new posts are pretty easy as well. Look in the `_posts` folder.
 
+**Update 2025/10/10:** BTW, I have moved the active_projects.html file to files, since I have not maintained my blog so rather remove it from the header. 
 Here's one example from paperairplane, below. Notice that some key metadata is defined such as title, cover image, date. The categories are also used.
 ```
 ---
