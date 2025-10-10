@@ -3,8 +3,10 @@
 ## Local Development
 
 ### Running
-```
+Either of these commands
+```bash
 bundle exec jekyll serve
+eval "$(rbenv init - zsh)" && bundle exec jekyll serve
 ```
 
 ### Reminders about folder structure
