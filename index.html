@@ -41,7 +41,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
         </p>
         <p>
           My research advances human-centered AI approaches to create systems that assist in activities that promote personal well-being.
-          I have built human-AI systems help train novice counselors to effectively support patients (<a href="https://arxiv.org/abs/2505.02428">mental health</a>), empower novice composers to create music that expressively communicates their ideas or emotions (<a href="files/expressive_communication.pdf">creativity</a>), and enable friends to connect via collective experiences across distance (<a  href="files/oce_cscw20_cameraready_sep11.pdf">social connection</a>).
+          I have built human-AI systems help train novice counselors to effectively support patients (<a href="#research-area-mental-health">mental health</a>), empower novice composers to create music that expressively communicates their ideas or emotions (<a href="#research-area-creativity">creativity</a>), and enable friends to connect via collective experiences across distance (<a href="#research-area-social-connection">social connection</a>).
           Motivated by these application domains, I invent technical methods for improving how humans can customize and collaborate with AI.
           This involves making it easier for humans to communicate their goals (eliciting intentions, tasks, feedback) and for AI systems to meaningfully align with them (steering, fine-tuning, adapting).
           I then conduct experimental studies and real-world deployments to understand how design choices in a human-AI system impact human behavior and user experience.
@@ -58,7 +58,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
       <!-- Mental Health Publications -->
       <p>
-        <span style="font-weight: bold; color: black;">Mental Health with LLMs:</span> Starting in my postdoc, my research inquiry has focused on creating LLM-powered systems for mental health and well-being. The global mental health crisis currently suffers from a demand-capacity problem, in which <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response">1 in 8 people worldwide live with a mental disorder</a>, and <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response">the demand for mental health services far exceeds supply</a>. This demands innovative approaches to scale high-quality care. There are many contexts where help seekers need human support, yet effective training for human counselors is lacking or not scalable. To address this, I have developed <a href="https://arxiv.org/abs/2505.02428">CARE, an AI powered platform for psychotherapy skills training</a>, where novice counselors can practice role-playing with simulated patients and receive tailored feedback from AI mentors. To ensure LLMs produce realistic patient simulations and faithful feedback, my work contributes novel tools and techniques for customizing LLMs for counseling training—with a focus on human-AI collaboration pipelines to <a href="https://roleplay-doh.github.io">elicit knowledge from mental health experts</a> and <a href="https://aclanthology.org/2024.acl-long.227">optimize LLM outputs to be aligned with domain-feedback</a>. My work uses experimental methods—including randomized trials with 90+ counselors and micro-randomized trials in psychotherapy classrooms—to understand how LLM-simulated practice can upskill and enhance educational activities.
+        <span id="research-area-mental-health" style="font-weight: bold; color: black;">Mental Health with LLM Skill Training:</span> Starting in my postdoc, my research inquiry has focused on creating LLM-powered systems for mental health and well-being. The global mental health crisis currently suffers from a demand-capacity problem, in which <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response">1 in 8 people worldwide live with a mental disorder</a>, and <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response">the demand for mental health services far exceeds supply</a>. This demands innovative approaches to scale high-quality care. There are many contexts where help seekers need human support, yet effective training for human counselors is lacking or not scalable. To address this, I have developed <a href="https://arxiv.org/abs/2505.02428">CARE, an AI powered platform for psychotherapy skills training</a>, where novice counselors can practice role-playing with simulated patients and receive tailored feedback from AI mentors. To ensure LLMs produce realistic patient simulations and faithful feedback, my work contributes novel tools and techniques for customizing LLMs for counseling training—with a focus on human-AI collaboration pipelines to <a href="https://roleplay-doh.github.io">elicit knowledge from mental health experts</a> and <a href="https://aclanthology.org/2024.acl-long.227">optimize LLM outputs to be aligned with domain-feedback</a>. My work uses experimental methods—including randomized trials with 90+ counselors and micro-randomized trials in psychotherapy classrooms—to understand how LLM-simulated practice can upskill and enhance educational activities.
       </p>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
@@ -111,7 +111,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       </div>
 
       <!-- Creativity Publications -->
-      <h5 style="font-weight: bold;">Creativity with Generative AI</h5>
+      <h5 id="research-area-creativity" style="font-weight: bold;">Creativity with Generative AI</h5>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
           {% if pub.highlight and pub.tags contains 'creativity' %}
@@ -137,7 +137,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       </div>
 
       <!-- Social Connection Publications -->
-      <h5 style="font-weight: bold;">Social Connection via Context-Aware AI</h5>
+      <h5 id="research-area-social-connection" style="font-weight: bold;">Social Connection via Context-Aware AI</h5>
       <div class="featured-publications">
         {% for pub in sorted_publications %}
           {% if pub.highlight and pub.tags contains 'socialconnection' %}
