@@ -107,10 +107,13 @@
 
 .pubs {
   .pub-year {
-    font-size: 1.3em;
-    margin: 0.7em 0 0.5em 0;
-    border-bottom: none;
-    color: $grey-color;
+    font-size: 1.8em;
+    margin: 2em 0 1em 0;
+    border-bottom: 2px solid $grey-color-light;
+    color: $text-color;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    line-height: 1.2;
   }
 
   .publication,
@@ -128,12 +131,17 @@
   }
 
   .publication {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid $grey-color-lightest;
 
     h3 {
-      font-size: 1.2em;
-      margin: 0em;
-      font-weight: 500;
+      font-size: 1.4em;
+      margin: 0 0 0.75em 0;
+      font-weight: 600;
+      line-height: 1.4;
+      color: $text-color;
+      letter-spacing: -0.01em;
 
       max-height: 600px;
       overflow: hidden;
@@ -144,7 +152,7 @@
     }
 
     .award-icon {
-      margin-right: 0.2em;
+      margin-right: 0.4em;
       font-size: 1.2em;
 
       &.fa-trophy {
@@ -157,55 +165,96 @@
     }
 
     .authors {
-      margin-bottom: 0.3em;
-      font-weight: 300;
+      margin-bottom: 0.75em;
+      font-weight: 400;
+      font-size: 1.05em;
+      line-height: 1.6;
+      color: $dark-text-color;
       a {
-        color: $text-color;
+        color: $dark-text-color;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.2s ease;
+        
+        &:hover {
+          border-bottom: 1px solid $link-color;
+        }
       }
     }
 
     .venue,
     .venue a {
       color: $grey-color;
+      font-size: 1em;
+      font-style: italic;
+      margin-bottom: 1em;
+      display: block;
+      font-weight: 400;
+    }
+
+    .description {
+      font-size: 1.05em;
+      line-height: 1.8;
+      color: $text-color;
+      margin-bottom: 1.5em;
+      font-weight: 400;
     }
 
     .awards {
-      margin-top: 0.1em;
+      margin-top: 0.75em;
       font-weight: 500;
       color: firebrick;
+      font-size: 1em;
     }
 
     .tweet {
+      display: block;
+      margin-top: 1.5em;
+      padding: 1em;
+      background-color: $grey-color-lightest;
+      border-radius: 4px;
+      
       &:hover {
         text-decoration: none;
+        background-color: darken($grey-color-lightest, 3%);
 
         .message {
           text-decoration: underline;
         }
       }
       .message {
-        font-size: 0.9em;
-        font-style: italic;
+        font-size: 1em;
+        font-style: normal;
         color: $grey-color;
       }
     }
 
     p {
-      margin-bottom: 0;
+      margin-bottom: 1.5em;
+      line-height: 1.8;
+      font-weight: 400;
     }
 
     .extra-links {
-      margin-top: 0.5em;
-      font-weight: 300;
-      font-size: 0.9em;
+      margin-top: 1.5em;
+      font-weight: 400;
+      font-size: 1em;
 
       a {
-        margin-right: 1em;
+        margin-right: 1.5em;
         white-space: nowrap;
+        color: $link-color;
+        border-bottom: 1px solid transparent;
+        transition: all 0.2s ease;
 
         &:hover {
           text-decoration: none;
           border-bottom: 1px solid $link-color;
+          color: darken($link-color, 10%);
+        }
+        
+        i {
+          margin-right: 0.4em;
         }
       }
     }
