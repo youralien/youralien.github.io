@@ -412,3 +412,56 @@
 }
 
 
+
+
+/**
+ * Mobile site navigation
+ *
+ * The vendored Scriptor stylesheet (assets/css/style-v=cba79c2df0.css) hides the
+ * header nav below 860px because it expects the links to reappear inside an
+ * off-canvas `.sidebar` toggled by a hamburger button. This site has neither -
+ * only the leftover `.overlay` div - so the nav simply vanished on phones.
+ * Keep the nav in the header and let it wrap onto its own row instead.
+ *
+ * The `#page` prefix is here purely for specificity: css/main.css is loaded
+ * *before* the theme stylesheet in _includes/head.html, so an equally specific
+ * selector would lose the cascade.
+ */
+@media screen and (max-width: 860px) {
+    #page .site-header {
+        padding-top: 18px;
+        padding-bottom: 14px;
+    }
+
+    #page .site-title {
+        float: none;
+        margin-right: 0;
+        line-height: 1.2;
+    }
+
+    #page .site-header .site-navigation {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 6px;
+    }
+
+    #page .site-header .menu {
+        display: flex;
+        flex-wrap: wrap;
+        // Cancel the horizontal padding on the links so the first item
+        // lines up with the left edge of the site title.
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    #page .site-header .menu-item {
+        font-size: 13px;
+    }
+
+    #page .site-header .menu-item a {
+        display: block;
+        padding: 8px 12px;
+    }
+}
