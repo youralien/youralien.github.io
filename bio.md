@@ -10,7 +10,7 @@ Biographies for talk introductions, panels, and press. Please use the short bio 
 
 ## Short Bio
 
-Ryan Louie is an Assistant Professor of Computer Science in Vanderbilt University's [College of Connected Computing](https://computing.vanderbilt.edu), with a secondary affiliation in the [Peabody College of Education and Human Development](https://peabody.vanderbilt.edu). His research spans AI and education, human-computer interaction, and natural language processing, and studies how AI can be positvely used to strengthen human skills in high-stakes, relational domains such as providing mental health care. Before joining Vanderbilt, he was a postdoctoral researcher at Stanford University in the NLP and HCI groups, and he received his PhD from Northwestern University's Technology and Social Behavior program and BS from FW Olin College of Engineering.
+Ryan Louie is an Assistant Professor of Computer Science in Vanderbilt University's [College of Connected Computing](https://computing.vanderbilt.edu), with a secondary affiliation in the [Peabody College of Education and Human Development](https://peabody.vanderbilt.edu). His research spans AI and education, human-computer interaction, and natural language processing, and studies how AI can be positively used to strengthen human skills in high-stakes, relational domains such as providing mental health care. Before joining Vanderbilt, he was a postdoctoral researcher at Stanford University in the NLP and HCI groups, and he received his PhD from Northwestern University's Technology and Social Behavior program and BS from FW Olin College of Engineering.
 
 ## Long Bio
 
