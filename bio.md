@@ -34,7 +34,4 @@ human-centered outcomes.
 Before joining Vanderbilt, Ryan was a postdoctoral researcher in the Stanford Computer Science department's
 NLP and HCI groups from 2023 to 2026. He received his PhD in 2023 from Northwestern University's Technology
 and Social Behavior program, where he worked on human-AI interaction and social computing, and his B.S. in
-Robotics from the F.W. Olin College of Engineering in 2017. His work has been recognized with honorable
-mention awards at CHI. [PLACEHOLDER: other awards, fellowships, and funding to add.]
-
-[PLACEHOLDER: optional closing line, e.g. current lab name and recruiting note.]
+Robotics from the F.W. Olin College of Engineering in 2017. His work has been recognized with a Google PhD Fellowhip in HCI (1 of 7 finalists in 2022) and honorable mention paper awards at CHI and CSCW.
